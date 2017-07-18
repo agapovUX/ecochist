@@ -203,7 +203,7 @@ body {
 .uslugi h3 {
     font-weight: 300;
     font-size: 22px;
-    letter-spacing: 1.5px;
+
     word-spacing: 1px;
 }
 .uslugi h2 {
@@ -221,7 +221,7 @@ body {
 }
 
 .usluga {
-    height:100%;
+    min-height: 450px;
     border:3px solid white;
     background-color: white;
     -webkit-box-shadow: 7px 14px 42px 3px rgba(163, 174, 184, 0.4);
@@ -249,11 +249,12 @@ body {
     color:#00B0FF;
 }
 .usluga p {
-    font-size:12px;
-    color:#333;
+    font-size:13px;
+    color:black;
     padding-left: 15px;
     padding-right: 15px;
-    padding-bottom: 100px;
+    padding-bottom: 60px;
+
 }
 /*
 .usluga h3 {
@@ -351,11 +352,11 @@ body {
     background-position: 40% 50%;
 }
 .about {
-    background-image: url('../img/bg6.jpg');
+    background-image: url('../img/sss.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom center;
-    background-position: 10% 90%;
+
     overflow: hidden;
     /*
     background-size: cover;
@@ -379,15 +380,17 @@ body {
     margin-top: 100px;
     margin-bottom: 50px;
     text-transform: uppercase;
-    color:black;
+    color:white;
     font-weight: 300;
     font-size: 35px;
+    text-shadow: 2px 2px 2px rgba(0,0,0,.7);
 
 }
 .about p {
-    color:black;
+    color:white;
     word-spacing: 1.5px;
     line-height: 23px;
+    text-shadow: 2px 2px 2px rgba(0,0,0,.7);
 }
 .otzivi {
     position: relative;
@@ -428,12 +431,35 @@ body {
     font-weight: 500;
     word-spacing: 1px;
 }
+.up_to {
+      background-color: white;
+      height:30px;
+      margin-bottom: 100px;
+}
 
 
-
-
+.mailphone {
+      margin-left: 10px;
+      font-size: 20px;
+      font-weight: 700;
+      letter-spacing: 1.2px;
+      color:black;
+}
+.contact_info {
+      margin-bottom: 30px;
+}
 .contacts {
     position: relative;
+    background-color: rgb(238,238,238);
+    min-height:300px;
+}
+.eco_chist_footer {
+    margin-top: 50px;
+      font-size: 16px;
+      letter-spacing: 1.2px;
+      word-spacing: 1px;
+      font-weight: 400;
+        color:black;
 }
 
 @media only screen and (max-width: 1024px) {
